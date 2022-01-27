@@ -1,4 +1,5 @@
 fn main() {
+  let _empty = String::new();
   let ill: String = String::from("I-L-L");
   let a_str: &str = "Fighting";
 

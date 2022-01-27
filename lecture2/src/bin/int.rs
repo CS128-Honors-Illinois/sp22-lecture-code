@@ -1,6 +1,6 @@
 fn main() {
-    let x: u8 = 0xFF;
-    let y = x as u64;
+    let x: u8 = 1;
+    x += 1;
 
-    println!("x: {}\ty: {}", x, y);
+    println!("x: {}", x);
 }
