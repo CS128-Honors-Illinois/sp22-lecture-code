@@ -1,6 +1,6 @@
 fn main() {
-    let x: u8 = 1;
-    x += 1;
+    let mut x: u8 = 124;
+    x += 4;
 
-    println!("x: {}", x);
+    println!("Hello CS {} Honors!", x);
 }
