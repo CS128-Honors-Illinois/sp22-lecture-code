@@ -1,9 +1,9 @@
 fn main() {
     let s = String::from("hello world");
 
-    let hello = &s[0..5];  // same as &s[..5]
-    let world = &s[6..11]; // same as &s[6..]
-    let hello_world = &s[..];
+    let hello = &s[..5];  // same as &s[..5]
+    let world = &s[6..]; // same as &s[6..]
+    let hello_world = &s;
 
     println!("{}", hello);
     println!("{}", world);

@@ -16,6 +16,6 @@ fn deref_int(num: &mut i32) {
 }
 
 fn deref_string(s: &mut String) {
-    *s = "goodbye".to_string();
-    // s.push_str(" world");
+    // *s = "goodbye".to_string();
+    s.push_str(" world");
 }
