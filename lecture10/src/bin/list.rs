@@ -14,30 +14,22 @@ impl<T: std::fmt::Display> LinkedList<T> {
 
     /// New instance of LinkedList
     pub fn new() -> Self {
-        LinkedList {
-            front: None,
-            length: 0,
-        }
+        todo!()
     }
 
     /// Returns the length of the list.
     pub fn len(&self) -> usize {
-        self.length
+        todo!()
     }
 
     /// Returns true if the list is empty.
     pub fn is_empty(&self) -> bool {
-        self.len() == 0
+        todo!()
     }
 
     /// Adds an element to the front of the list.
     pub fn add_front(&mut self, thing: T) {
-        let new_link = Box::new(Link {
-            thing: thing,
-            next: self.front.take(),
-        });
-        self.front = Some(new_link);
-        self.length += 1;
+        todo!()
     }
 
     /// Adds an element to the back of the list.
@@ -76,10 +68,7 @@ impl<T: std::fmt::Display> Link<T> {
 
     /// New instance of Link
     fn new(thing: T) -> Self {
-        Link {
-            thing: thing,
-            next: None,
-        }
+        todo!()
     }
 }
 
